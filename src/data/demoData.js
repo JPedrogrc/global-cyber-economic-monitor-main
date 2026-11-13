@@ -1,0 +1,98 @@
+// Registros fictícios (faixas de IP reservadas para documentação, RFC 5737)
+
+export const CURATED_OSINT_BASELINE = [
+  {
+    id: "osint-1",
+    agency: "DEMONSTRAÇÃO",
+    ip: "192.0.2.10",
+    port: 443,
+    threatType: "Exemplo de atividade suspeita (dado fictício)",
+    targetSector: "NÃO CLASSIFICADO",
+    severity: "DEMONSTRAÇÃO",
+    status: "EXEMPLO",
+    isDemo: true,
+  },
+  {
+    id: "osint-2",
+    agency: "DEMONSTRAÇÃO",
+    ip: "198.51.100.20",
+    port: 8080,
+    threatType: "Exemplo de indicador de botnet (dado fictício)",
+    targetSector: "NÃO CLASSIFICADO",
+    severity: "DEMONSTRAÇÃO",
+    status: "EXEMPLO",
+    isDemo: true,
+  },
+  {
+    id: "osint-3",
+    agency: "DEMONSTRAÇÃO",
+    ip: "203.0.113.30",
+    port: 22,
+    threatType: "Exemplo de vulnerabilidade (dado fictício)",
+    targetSector: "NÃO CLASSIFICADO",
+    severity: "DEMONSTRAÇÃO",
+    status: "EXEMPLO",
+    isDemo: true,
+  },
+  {
+    id: "osint-4",
+    agency: "DEMONSTRAÇÃO",
+    ip: "192.0.2.40",
+    port: 502,
+    threatType: "Exemplo de sondagem OT/SCADA (dado fictício)",
+    targetSector: "NÃO CLASSIFICADO",
+    severity: "DEMONSTRAÇÃO",
+    status: "EXEMPLO",
+    isDemo: true,
+  },
+  {
+    id: "osint-5",
+    agency: "DEMONSTRAÇÃO",
+    ip: "198.51.100.50",
+    port: 3389,
+    threatType: "Exemplo de tentativa RDP (dado fictício)",
+    targetSector: "NÃO CLASSIFICADO",
+    severity: "DEMONSTRAÇÃO",
+    status: "EXEMPLO",
+    isDemo: true,
+  },
+];
+
+export const INITIAL_TIME_SERIES = [
+  {
+    time: "16:10",
+    economicIndex: 104.2,
+    cyberAttacksPerMin: 310,
+    mitigatedRate: 99.8,
+  },
+  {
+    time: "16:15",
+    economicIndex: 105.1,
+    cyberAttacksPerMin: 345,
+    mitigatedRate: 99.9,
+  },
+  {
+    time: "16:20",
+    economicIndex: 104.8,
+    cyberAttacksPerMin: 420,
+    mitigatedRate: 99.7,
+  },
+  {
+    time: "16:25",
+    economicIndex: 106.4,
+    cyberAttacksPerMin: 390,
+    mitigatedRate: 99.9,
+  },
+  {
+    time: "16:30",
+    economicIndex: 107.0,
+    cyberAttacksPerMin: 510,
+    mitigatedRate: 99.8,
+  },
+  {
+    time: "16:35",
+    economicIndex: 108.3,
+    cyberAttacksPerMin: 465,
+    mitigatedRate: 99.9,
+  },
+];
